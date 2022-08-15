@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: #FFFF;
+    
+    background-image: url(img/esports_principal2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    
+}
+header{
+    width: 100%;
+    height: 5rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.logos a{
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.logo{
+    width: 4rem;
+    height: 3rem;
+}
+
+.user__login,.user__register{
+    display: inline-block;
+    margin-right: 1rem;
+    background-color: #A75CE2;
+    color: #FFFFFF;
+    text-shadow: 2px 2px  rgb(0, 0, 0);
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 8em;
+    height: 1.8em;
+    text-align: center;
+
+}
+
+.portada1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.mensaje1{
+    width: 100%;
+    height: 11rem;
+    background-image: url(img/esports1.jpg);
+    background-size: 32rem 100%;
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+    margin-top: 20px;
+}
+.mensaje1 h2{
+    font-size: 50px;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+}
+.mensaje2{
+    width: 100%;
+    height: 11rem;
+    background-image: url(img/skills.jpg);
+    background-size: 32rem 90%;
+    background-repeat: no-repeat;
+    background-position: 10% 0;
+    margin-top: 40px;
+    text-align: right;
+}
+.mensaje2 h2{
+    font-size: 50px;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-right: 4em;
+}
+
+.juegos{
+    background-color: #1A0A2E;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.dota{
+    
+    background-color: #3E1275;
+    width: 25rem;
+    height: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: solid #FB3640 0.3em;
+    text-align: justify;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.dotaimg{
+    width: 10em;
+    height: 10em;
+    background-image: url(img/dota2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    border-radius: 100px;
+    border: solid 1px #FF0064;
+}
+
+.mas{
+    display: block;
+    margin: 5em auto;
+    background-color: #A75CE2;
+    text-align: center;
+    width: 40%;
+    height: 2em;
+    color: #FFFFFF;
+    text-shadow: 2px 2px  rgb(0, 0, 0);
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+footer{
+    background-image: url(img/esports_principal2.jpg);
+    margin: 0;
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
