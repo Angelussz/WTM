@@ -1,0 +1,166 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+  }
+  
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: #FFFF;
+    box-sizing: border-box;
+    background-color: #1A0A2E;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas: 
+    "header header header header header header header"
+    "image description description description espacio nav nav"
+    "image description description description espacio clases1 clases1"
+    "image description description description espacio clases1 clases1"
+    "cronograma cronograma cronograma cronograma espacio clases2 clases2"
+    "cronograma cronograma cronograma cronograma espacio clases2 clases2"
+    "descripcion1 descripcion1 descripcion2 descripcion2 descripcion2 descripcion3 descripcion3"
+    "footer footer footer footer footer footer footer"
+    ;
+    
+}
+
+body>*{
+    background-color: #1A0A2E;
+    border: #1A0A2E;
+    grid-template-areas: 
+    ""
+    ;
+}
+
+h2{
+    text-align: center;
+}
+
+.header{
+    grid-area: header;
+    background-image: url(img/esports_principal2.jpg);
+}
+.nav{
+    
+    grid-area: nav;
+}
+.image{
+    grid-area: image;
+}
+.description{
+    grid-area: description;
+}
+.clases1{
+    text-align: center;
+    grid-area: clases1;
+    border-radius: 2rem;
+    background-image: linear-gradient(to top,#1A0A2E 20%,#43137e 80%);
+}
+.clases2{
+    text-align: center;
+    grid-area: clases2;
+    border-radius: 2rem;
+    background-image: linear-gradient(to top,#1A0A2E 20%,#43137e 80%);
+}
+.cronograma{
+    font-family: sans-serif;
+    grid-area: cronograma;
+    border-radius: 20px;
+    background-image: linear-gradient(to top,#fffab3 10%,#8e2d52 90%);
+    
+}
+
+.descripcion1{
+    
+    grid-area: descripcion1;
+}
+.descripcion2{
+    
+    grid-area: descripcion2;
+}
+.descripcion3{
+    grid-area: descripcion3;
+}
+
+.footer{
+    text-align: center;
+    grid-area: footer;
+    padding: 3rem;
+    background-image: url(img/esports_principal2.jpg);
+}
+
+.dotaimg{
+    width: 10rem;
+    height: 10rem;
+    background-image: url(img/scotfield.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    background-size: cover;
+    border-radius: 100px;
+    
+}
+
+.logos{
+    margin-top: 0.5rem;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    margin-left: auto;  
+    margin-right: auto;
+    justify-content: space-evenly;
+
+}
+
+img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.description p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    font-family: sans-serif;
+    padding-top: 1rem;
+    justify-content: space-evenly;
+}
+
+.cronograma p{
+    text-align: center;
+    color: yellow;
+}
+
+.clases1 p, .clases2 p{
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.clases1 a, .clases2 a{
+    display: inline-block;
+    margin-top: 2rem;
+    background-color: #8100FF;
+    color: #FFFF;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 10rem;
+}
+
+.descripcion1,.descripcion2,.descripcion3{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #250c44;
+}

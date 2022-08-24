@@ -108,3 +108,12 @@ header a{
     left: 29%;
        
 }
+
+footer{
+    background-image: url(img/esports_principal2.jpg);
+    margin: 0;
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+    padding-top: 30px;
+}
