@@ -33,6 +33,21 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
+  <style>
+    h1{
+      background-image: linear-gradient(to right, red , yellow);
+  
+    }
+    .slideshow {
+      background-image: url('https://cdn.dribbble.com/users/6105410/screenshots/14274985/pathum-shehan-gaming-room_4x.jpg');
+
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+  }
+
+  </style>
   <body>
     <?php require 'partials/header.php' ?>
 
@@ -42,11 +57,12 @@
 
     <h1>Login</h1>
     <span>or <a href="signup.php">SignUp</a></span>
-
-    <form action="login.php" method="POST">
-      <input name="email" type="text" placeholder="Enter your email">
-      <input name="password" type="password" placeholder="Enter your Password">
-      <input type="submit" value="Submit">
-    </form>
+    <div class="slideshow">
+      <form action="login.php" method="POST">
+        <input name="email" type="text" placeholder="Enter your email">
+        <input name="password" type="password" placeholder="Enter your Password">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
   </body>
 </html>
