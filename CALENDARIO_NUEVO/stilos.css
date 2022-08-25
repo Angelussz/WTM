@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://cdn.beahero.gg/2019/06/ooe.jpg');
+    
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #366366, #0a6037);
+    position: relative;
+    
+}
+
+#calendar{
+    width: 100%;
+    position: absolute;
+    margin-top: -700px;
+    left: 0%;
+    opacity: 0.9;
+}
+
+a {
+    background-color: #43b7cb;
+    color: rgb(224, 206, 206);
+    padding: 15px 25px;
+    text-decoration: none;
+    width: 150px; /* whatever your button's width*/
+  margin: 0 auto; /* auto left/right margins*/
+  display: block;
+  margin-top: 700px;
+  }
+  
+a:hover {
+background-color: #744354;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(102, 5, 99);
+    color: white;
+    margin-top: 155px;
+  }
